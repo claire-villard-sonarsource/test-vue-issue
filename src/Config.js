@@ -1,5 +1,7 @@
 import firebase from 'firebase'
 
+const aws_access_key_id = "ASIALKSJGJSHBGSL135H"
+
 const firebaseConfig = {
     apiKey: "123456798-565121-qlkjb",
     authDomain: "something.firebaseapp.com",
