@@ -17,7 +17,6 @@ console.log(' iam here')
 console.log(' iam here')
 console.log(' iam here')
 console.log(' iam here')
-console.log(' iam here')
 
 app.get("/", (_req, res) => {
   res.send("My second server!");
