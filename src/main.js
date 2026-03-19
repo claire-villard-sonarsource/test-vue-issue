@@ -20,7 +20,7 @@ router.beforeEach((to, from, next) =>
   Promise.all([store.dispatch(CHECK_AUTH)]).then(next)
 );
 
-// Add comment on main - 20260319 10:35
+// Add comment on main - 20260319 10:39
 new Vue({
   router,
   store,
