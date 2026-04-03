@@ -1,12 +1,12 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
-import store from "./store";
+import store from "./store_rename";
 import "./registerServiceWorker";
 
 import firebase from 'firebase'
 
-import { CHECK_AUTH } from "./store/actions.type";
+import { CHECK_AUTH } from "./store_rename/actions.type";
 import ApiService from "./common/api.service";
 import DateFilter from "./common/date.filter";
 import ErrorFilter from "./common/error.filter";
