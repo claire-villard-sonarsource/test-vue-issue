@@ -1,4 +1,4 @@
-import { actions } from "../../../src/store/article.module";
+import { actions } from "../../../src/store_rename/article.module";
 import {
   FETCH_ARTICLE,
   FETCH_COMMENTS,
@@ -6,7 +6,7 @@ import {
   COMMENT_DESTROY,
   FAVORITE_ADD,
   FAVORITE_REMOVE
-} from "../../../src/store/actions.type";
+} from "../../../src/store_rename/actions.type";
 
 jest.mock("vue", () => {
   return {
